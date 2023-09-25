@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+*, *:before,*::after{
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/Calculo.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 400px;
+    background-size:cover;
+    
+}
+.imagen{
+    width: 300px;
+    border-radius: 50%;
+}
+.titulo-matematicas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+    width: 600px;
+    height: 200px;
+}
+.titulo-matematicas h1{
+    font-family: cursive;
+    font-size: 80px;
+
+}
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navegador :hover{
+    color: white;
+    background-color: rgba(138, 138, 138, 0.726);
+    border-radius: 15px;
+}
+.navegador a{
+    font-size: xx-large;
+    font-family: cursive;
+    color: black;
+}
